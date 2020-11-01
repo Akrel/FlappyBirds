@@ -78,6 +78,17 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <Allegro_AddonTTF>YES</Allegro_AddonTTF>
+    <Allegro_AddonFont>YES</Allegro_AddonFont>
+    <Allegro_AddonImage>YES</Allegro_AddonImage>
+    <Allegro_AddonPrimitives>YES</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>YES</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>YES</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>YES</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>YES</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>YES</Allegro_AddonMemfile>
+    <Allegro_AddonColor>YES</Allegro_AddonColor>
+    <Allegro_AddonVideo>YES</Allegro_AddonVideo>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -139,10 +150,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
     <ClCompile Include="FlappyBird.cpp" />
+    <ClCompile Include="PositionMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="FlappyBird.h" />
+    <ClInclude Include="PositionMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

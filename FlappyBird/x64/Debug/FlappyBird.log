@@ -1,2 +1,7 @@
-﻿  FlappyBird.cpp
-  FlappyBird.vcxproj -> G:\FlappyBird\x64\Debug\FlappyBird.exe
+﻿  PositionMenu.cpp
+G:\FlappyBird\FlappyBird\PositionMenu.cpp(12,3): error C2065: "default": niezadeklarowany identyfikator
+G:\FlappyBird\FlappyBird\PositionMenu.cpp(22,6): error C2321: „default” to słowo kluczowe i nie można go użyć w tym kontekście
+G:\FlappyBird\FlappyBird\PositionMenu.cpp(23,2): error C2065: "text": niezadeklarowany identyfikator
+G:\FlappyBird\FlappyBird\PositionMenu.cpp(23,17): error C2065: "dr": niezadeklarowany identyfikator
+G:\FlappyBird\FlappyBird\PositionMenu.cpp(23,21): error C2065: "dg": niezadeklarowany identyfikator
+G:\FlappyBird\FlappyBird\PositionMenu.cpp(23,25): error C2065: "db": niezadeklarowany identyfikator
