@@ -3,7 +3,7 @@
 #include "Engine.h"
 #include "FlappyBird.h"
 
-
+#include "Resources.h"
 	
 	int main()
 	{
@@ -12,7 +12,9 @@
 		
 		myEngine->setDisplay(1060, 720, 0);
 		
-		std::cout << myEngine << std::endl;
+
+		
+		//std::cout << myEngine << std::endl;
 		al_rest(5.0);
 		return 0;
 	}
